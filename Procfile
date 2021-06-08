@@ -1,1 +1,1 @@
-web: gunicorn -w 1 -k uvicorn.workers.UvicornWorker main_app:app
+web: uvicorn main_app:app --workers 1
