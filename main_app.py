@@ -1,4 +1,5 @@
 import justpy as jp
+app = jp.app
 
 def my_web():
 
@@ -7,5 +8,3 @@ def my_web():
     return wp
 
 jp.justpy(my_web)
-#app = jp.justpy(my_web)
-#server = app.server
