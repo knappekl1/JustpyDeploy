@@ -1,0 +1,1 @@
+web: gunicorn main_app:jp.justpy(my_web)
