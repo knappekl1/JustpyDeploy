@@ -7,3 +7,4 @@ def my_web():
     return wp
 
 app = jp.justpy(my_web)
+server = app.server
